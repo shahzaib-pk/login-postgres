@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "atd",
+    "database": "login-flow",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "atd",
+    "database": "seq-test",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "atd",
+    "database": "seq-prod",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
